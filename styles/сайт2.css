@@ -133,7 +133,7 @@ footer{
 }
 
 /* Стилове за мобилни устройства */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 
   main {
     padding: 10px;
@@ -170,7 +170,14 @@ footer{
  h1 {
   font-size: 24px;
  }
-
+ .container2 {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  
+  
  
 }
 
