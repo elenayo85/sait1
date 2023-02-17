@@ -36,12 +36,12 @@ h1 {
 
     .left-image {
       left: 50px;
-      background-image: url('/снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
+      background-image: url('снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
     
     .right-image {
       right: 50px;
-      background-image: url('/снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
+      background-image: url('снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
 
 
@@ -163,16 +163,11 @@ footer{
     font-size:14px;
   }
 
-  #sidebar {
-  background-color: #f3ca87;
+  sidebar {
+  
   padding: 10px;
-  position:absolute;
-  top:155px;
-  left: 0;
-  bottom: 0;
-  width: 180px;
-  display:flex;
-  flex-direction:column;
+ 
+
   }
 
 
