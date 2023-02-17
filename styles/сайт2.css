@@ -36,12 +36,12 @@ h1 {
 
     .left-image {
       left: 50px;
-      background-image: url('снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
+      background-image: url(снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
     
     .right-image {
       right: 50px;
-      background-image: url('снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
+      background-image: url(снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
 
 
@@ -162,15 +162,6 @@ footer{
   p {
     font-size:14px;
   }
-
-  sidebar {
-  
-  padding: 10px;
- 
-
-  }
-
-
 }
 
 
