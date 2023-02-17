@@ -166,17 +166,13 @@ footer{
     width: 100%;
   }
    
-       .container2 {
-          padding: 10px;
-        }
-        h1 {
-          font-size: 24px;
-        }
-        p {
-          font-size: 14px;
-        }
+
+ h1 {
+  font-size: 24px;
+ }
+
   .card {
-				max-width: 100%;
+  max-width: 100%;
 }
 
 
