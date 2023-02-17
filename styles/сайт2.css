@@ -44,7 +44,7 @@ h1 {
       background-image: url('/снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
 
-@media only screen and (max-width: 767px){
+@media{
 main{
   max-width: 1000px;
   margin: 0 auto;
@@ -117,7 +117,7 @@ main{
 
 
 
-@media only screen and (max-width: 767px) {
+@media {
   
 
 footer{
@@ -167,7 +167,7 @@ footer{
 
 }
 
-@media only screen and (max-width: 767px){
+@media {
 
 #sidebar {
   background-color: #f3ca87;
@@ -252,7 +252,7 @@ footer{
 
 
 
-@media only screen and (max-width: 767px){
+@media {
 .container2 {
   padding: 0.6em 2em;
   border: none;
