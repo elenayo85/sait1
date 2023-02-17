@@ -175,7 +175,8 @@ footer{
         p {
           font-size: 14px;
         }
-  
+  .card {
+				max-width: 100%;
 }
 
 
