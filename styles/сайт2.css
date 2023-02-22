@@ -148,7 +148,7 @@ footer{
     padding: 10px;
   }
   .left-image, .right-image {
-     width: calc(100% - 20px)
+     width: calc(100% - 5px)
     display:none;
   }
   
@@ -160,8 +160,8 @@ footer{
   }
 
   .sidebar {
-    calc(100% - 20px)
-    float: none;
+    calc(100% - 5px)
+    float:none;
   }
  
 }
