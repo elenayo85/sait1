@@ -133,7 +133,7 @@ footer{
 }
 
 /* Стилове за мобилни устройства */
-@media only screen and  {
+@media only screen and  {( max-width: 600px )
 
   main {
     padding: 10px;
