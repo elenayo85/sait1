@@ -164,6 +164,7 @@ footer{
     float:none;
   }
  .container2{
+   display:none;
    calc(20% - 5px)
 }
 
