@@ -112,7 +112,25 @@ main{
 
 
 
+/* Стилове за мобилни устройства */
+@media only screen and  {( max-width: 600px )
 
+  main {
+    padding: 10px;
+  }
+
+ .card {
+  width: calc(100% - 20px);
+  
+  }
+
+  footer {
+    padding: 10px;
+  }
+  .left-image, .right-image {
+   display:none;
+  }
+ }
 
 
 
