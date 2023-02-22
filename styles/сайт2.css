@@ -148,7 +148,7 @@ footer{
     padding: 10px;
   }
   .left-image, .right-image {
-    display: none;
+    display: grid;
   }
   
   h2 {
@@ -160,6 +160,7 @@ footer{
 
   .sidebar {
     width: 100%;
+    float: none;
   }
  
 }
