@@ -130,8 +130,19 @@ main{
   .left-image, .right-image {
    display:none;
   }
- }
+ 
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size:14px;
+  }
 
+  .sidebar {
+    calc(100% - 5px)
+    float:none;
+  }
+}
 
 
 
