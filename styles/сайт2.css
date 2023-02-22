@@ -148,8 +148,8 @@ footer{
     padding: 10px;
   }
   .left-image, .right-image {
-     width: 20%
-    display: grid;
+     width: calc(100% - 20px)
+    display:none;
   }
   
   h2 {
@@ -160,7 +160,7 @@ footer{
   }
 
   .sidebar {
-    width: 20%;
+    calc(100% - 20px)
     float: none;
   }
  
