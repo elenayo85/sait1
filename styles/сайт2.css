@@ -36,12 +36,12 @@ h1 {
 
     .left-image {
       left: 50px;
-      background-image: url('325484942_1650769765366880_4388146584097421927_n7.jpg');
+      background-image: url('/снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
     
     .right-image {
       right: 50px;
-      background-image: url('325484942_1650769765366880_4388146584097421927_n7.jpg');
+      background-image: url('/снимки/325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
 
 
@@ -112,37 +112,8 @@ main{
 
 
 
-/* Стилове за мобилни устройства */
-@media only screen and  {( max-width: 600px )
 
-  main {
-    padding: 10px;
-  }
 
- .card {
-  width: calc(100% - 20px);
-  
-  }
-
-  footer {
-    padding: 10px;
-  }
-  .left-image, .right-image {
-   display:none;
-  }
- 
-  h2 {
-    font-size: 24px;
-  }
-  p {
-    font-size:14px;
-  }
-
-  .sidebar {
-    calc(100% - 5px)
-    float:none;
-  }
-}
 
 
 
@@ -161,6 +132,54 @@ footer{
   
 }
 
+/* Стилове за мобилни устройства */
+@media only screen and (max-width: 767px)and (max-width: 600px), (max-width: 1100px) {
+
+  main {
+    padding: 10px;
+  }
+
+ .card {
+  width: calc(100% - 20px);
+  
+  }
+
+  footer {
+    padding: 10px;
+  }
+  .left-image, .right-image {
+    display:none;
+  
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size:14px;
+  }
+
+  #sidebar {
+    width: 100%;
+    display: contents;
+    
+  }
+ 
+  .container2{
+    display: flexbox;
+  }
+ 
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
 
 
 
@@ -172,8 +191,8 @@ footer{
   left: 0;
   bottom: 0;
   width: 180px;
-  display:flex;
-  flex-direction:column;
+
+  
 }
 
 #sidebar h2 {
@@ -184,7 +203,7 @@ footer{
   text-align: center;
   border: solid 3px white;
   border-style: double;
-  
+ 
 }
 
 #sidebar ul {
@@ -225,6 +244,7 @@ footer{
   box-shadow: 0 0 5px #ccc;
   max-width: 600px;
   text-align: center;
+ 
 }
 
 .container2 h2 {
