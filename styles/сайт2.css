@@ -148,7 +148,7 @@ footer{
     padding: 10px;
   }
   .left-image, .right-image {
-    display:auto;
+    display:flex;
   
   }
   
