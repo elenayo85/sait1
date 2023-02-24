@@ -23,8 +23,8 @@ h1 {
   display:inline-block;
   position:absolute;
   top:18px;
-  height:46%;
-  width: 20%;
+  height:auto;
+  width: 100%;
   background-size:cover;
   background-repeat:center center;
   object-fit: cover;
@@ -133,7 +133,7 @@ footer{
 }
 
 /* Стилове за мобилни устройства */
-@media only screen and (max-width: 767px)and (max-width: 600px), (max-width: 1100px) {
+@media only screen and (max-width: 767px)and (max-width: 600px), (max-width: 900px) {
 
   main {
     padding: 10px;
