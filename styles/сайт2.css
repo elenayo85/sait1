@@ -167,9 +167,11 @@ footer{
  
   .container2{
     display: flexbox;
+    top:-7px;
   }
  
 }
+
 [class*="col-"] {
   width: 100%;
 }
