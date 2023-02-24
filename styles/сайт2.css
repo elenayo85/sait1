@@ -25,13 +25,13 @@ h1 {
   top:18px;
   height:auto;
   width: 100%;
- 
+  background-size:cover;
+  background-repeat:center center;
   object-fit: cover;
   object-position: center;
   width:280px;
   height:100px;
-  background-repeat: no-repeat;
-  background-size: contain;
+ 
     }
 
     .left-image {
@@ -133,7 +133,7 @@ footer{
 }
 
 /* Стилове за мобилни устройства */
-@media only screen and (max-width: 767px)and (max-width: 600px) {
+@media only screen and (max-width: 767px)and (max-width: 600px),(max-width: 900px) {
 
   main {
     padding: 10px;
@@ -148,7 +148,7 @@ footer{
     padding: 10px;
   }
   .left-image, .right-image {
-    display:;
+    display:none;
   
   }
   
