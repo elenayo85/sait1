@@ -31,7 +31,8 @@ h1 {
   object-position: center;
   width:280px;
   height:100px;
-
+  background-repeat: no-repeat;
+  background-size: contain;
     }
 
     .left-image {
@@ -148,7 +149,7 @@ footer{
     padding: 10px;
   }
   .left-image, .right-image {
-    display:none;
+    display:;
   
   }
   
