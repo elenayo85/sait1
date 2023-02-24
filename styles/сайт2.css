@@ -25,8 +25,7 @@ h1 {
   top:18px;
   height:auto;
   width: 100%;
-  background-size:cover;
-  background-repeat:center center;
+ 
   object-fit: cover;
   object-position: center;
   width:280px;
@@ -36,12 +35,12 @@ h1 {
     }
 
     .left-image {
-      left: 50px;
+     left: 50px;
       background-image: url('325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
     
     .right-image {
-      right: 50px;
+     right: 50px;
       background-image: url('325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
 
