@@ -178,7 +178,7 @@ footer{
 
 
 [class*="col-"] {
-  float:none;
+  float:right;
   padding: 15px;
 }
 
