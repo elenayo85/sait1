@@ -29,7 +29,8 @@ h1 {
   background-repeat:center center;
   object-fit: cover;
   object-position: center;
- 
+  width:280px;
+  height:100px;
  
     }
 
@@ -132,7 +133,7 @@ footer{
 }
 
 /* Стилове за мобилни устройства */
-@media only screen and (max-width: 767px)and (max-width: 600px){
+@media only screen and (max-width: 767px) and (max-width: 600px){
 
   main {
     padding: 10px;
