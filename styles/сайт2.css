@@ -70,6 +70,7 @@ main{
 
 
  .card {
+  position:static;
   width: 100%;
   max-width: 300px;
   margin: 10px;
@@ -103,6 +104,7 @@ main{
   text-align: center;
   background-color: #d8ab4e;
   color: black;
+  font-weight: 600;
 }
 
 .card p {
