@@ -16,6 +16,8 @@ header{
 
 h1 {
   margin:0;
+ font-weight: 600;
+font-size:31px;
 }
 
 
@@ -35,12 +37,12 @@ h1 {
     }
 
     .left-image {
-     left: 50px;
+     left: 45px;
       background-image: url('325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
     
     .right-image {
-     right: 50px;
+     right: 45px;
       background-image: url('325484942_1650769765366880_4388146584097421927_n7.jpg');
     }
 
@@ -189,7 +191,7 @@ footer{
   background-color: #f3ca87;
   padding: 10px;
   position:absolute;
-  top:155px;
+  top:165px;
   left: 0;
   bottom: 0;
   width: 180px;
@@ -205,7 +207,8 @@ footer{
   text-align: center;
   border: solid 3px white;
   border-style: double;
- 
+  font-weight:600;
+  font-size: 22px;
 }
 
 #sidebar ul {
@@ -230,6 +233,8 @@ footer{
   border-radius: 5px;
   border-style: double;
   text-align: center;
+  font-weight: 500;
+  font-size: 18px;
   }
 
 #sidebar a:hover {
@@ -251,10 +256,14 @@ footer{
 
 .container2 h2 {
   margin-top: 0;
+ font-weight:600;
+ font-size:21px;
 }
 
 .container2 p {
   margin-bottom: 10;
+  text-align:justify;
+  line-height: 18px;
 }
 
 .ikonki{
