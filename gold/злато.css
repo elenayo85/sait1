@@ -100,6 +100,19 @@ main{
 
 
 
+.video-wrapper {
+    width: 100%;
+    max-width:320px;
+    height: auto;
+    margin-top:155px;
+   
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
 
 
 
