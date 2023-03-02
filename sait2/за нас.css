@@ -129,15 +129,16 @@ footer{
     padding: 10px;
   }
 
- 
+ .card {
+  width: calc(100% - 20px);
+  
+  }
 
   footer {
     padding: 10px;
   }
   .left-image, .right-image {
   display: none;
-
-    
   }
   
   h2 {
@@ -150,25 +151,21 @@ footer{
   #sidebar {
     width: 100%;
     display:contents;
-    
-    
-  }
+    }
  
   .container2{
     display:flexbox;
-    top:-7px;
-  }
+    top:-7px;}
  
-}[class*="col-"] {
-  width: 100%;
 }
+[class*="col-"] {
+  width: 100%;}
 
 
 
 [class*="col-"] {
   float:center;
-  padding: 15px;
-}
+  padding: 15px;}
 
 #sidebar {
   background-color: #f3ca87;
