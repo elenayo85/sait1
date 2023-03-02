@@ -50,7 +50,13 @@ font-size:31px;
     }
 
 
- 
+ main{
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap:wrap;
+     }
 
  
  .container {
@@ -61,9 +67,36 @@ font-size:31px;
   padding: 20px;
   box-sizing: border-box;
   background-color: #fdfcfc;
-  
+  }
+
+
+.card {
+  position:static;
+  width: 100%;
+  max-width:450px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color:#e4decd;
+  border: 1px solid #d0cccc;
+  border-radius: 10px;
+  overflow:hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.card img {
+  display:block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s;
+  object-position:center;
+  align-items:center;
+  
+  }
+
+.card:hover img {
+  transform:scale(1.1);
+}
 
 
 
