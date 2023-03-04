@@ -24,7 +24,7 @@ font-size:31px;
 .left-image, .right-image {
   display:inline-block;
   position:absolute;
-  top:18px;
+  top:5px;
   height:auto;
   width: 100%;
   background-size:cover;
